@@ -1,0 +1,130 @@
+/**
+ * @name MinimalCord - SL Modified
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @invite ZHthyCw
+ * @description Changes Discord enough to give it a fresh feel while also making it darker. Supports both Light and Dark themes.
+ * @source https://github.com/DiscordStyles/MinimalCord
+ * @website https://www.gibbu.me
+*/
+
+/*
+    Base + Font
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600&display=swap');
+@import url("https://discordstyles.github.io/MinimalCord/dist/MinimalCord.css");
+
+/* Bottom Bar */
+@import url('https://discord-theme-addons.github.io/bottom-bar/src/support/compiled.css');
+
+/* Horizontal Server List */
+@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
+
+/* Better Badges */
+@import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
+
+/* Refined User Connections */
+@import url('https://discord-theme-addons.github.io/refined-user-connections/src/support/compiled.css');
+
+/* Coloured Discord SVG */
+@import url('https://nyri4.github.io/Discolored/main.css');
+
+/* Radial Status */
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+
+/* 
+    Revert Rebrand 
+*/
+
+/* Generated hardcoded color fixes */
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/hardcoded.css');
+
+/*
+    Components
+*/
+
+/* Revert mentions */
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/mentions.css');
+
+/* Revert reactions */
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/reactions.css');
+
+/* Revert profile pictures */
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/pfps.css');
+
+/* Revert folders (default colors back to old blurple) */
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/folders.css');
+
+/* Revert windows wordmark */
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css');
+
+/*
+    General Changes
+*/
+
+/* Revert some BD specific elements */
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/general/bd.css');
+
+/* Revert some inputs */
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/general/inputs.css');
+
+
+/* Revert some other minor things */
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/general/other.css');
+
+
+
+:root {
+    /*
+        Accent variable
+        Use this website: https://htmlcolorcodes.com/color-picker/
+        to get your desired RGB numbers. Then simply put each number in their respective area.
+        R,G,B
+    */
+    --accent: 50, 131, 207;
+
+    --message-padding: 10px; /* Spacing in the messages. MUST END IN px | DEFAULT: 10px */
+    --message-spacing: 10px; /* Spacing around the messages. MUST END IN px | DEFAULT: 10px */
+
+    /*
+        To use a custom font. Visit https://fonts.google.com and select one to your liking.
+        Now just follow this tutorial: https://imgur.com/a/CNbw7xC
+    */
+    --font: 'Lexend Deca';
+    
+    /*
+        Bottom Bar
+    */
+    --bar-background-primary: var(--background-dark);
+    
+    /*
+        Horizontal Server List
+    */
+    --HSL-server-icon-size: 35px; /* Icon size default: 40px */
+    --HSL-server-spacing: 8px; /* Server spacing default: 10px */
+
+    /*
+        Radial Status
+    */
+
+    --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
+    --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
+    --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
+  
+    --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
+    --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
+    --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
+  
+    --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+  
+    --rs-online-color: #43b581; /* Colour for online status */
+    --rs-idle-color: #faa61a; /* Colour for idle status */
+    --rs-dnd-color: #f04747; /* Colour for dnd status */
+    --rs-offline-color: #636b75; /* Colour for offline status */
+    --rs-streaming-color: #643da7; /* Colour for streaming status */
+    --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+    --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+  
+    --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+
+}
