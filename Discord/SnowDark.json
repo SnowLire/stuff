@@ -1,12 +1,13 @@
 {
     "manifest": {
-        "author": "Soulz & SnowLire",
-        "name": "Tokyo Night - SL version",
+        "author": "SnowLire",
+        "name": "SnowDark",
         "version": "1.0"
     },
     "background": {},
     "fonts": {
-        "*": "https:\/\/raw.githubusercontent.com\/SnowLire\/stuff\/main\/Discord\/Fonts\/LexendDeca-VariableFont_wght.ttf"
+        "*": "https:\/\/raw.githubusercontent.com\/SnowLire\/stuff\/main\/Discord\/Fonts\/LexendDeca-VariableFont_wght.ttf",
+        "sourcecodeori_semibold": "https:\/\/raw.githubusercontent.com\/SnowLire\/stuff\/main\/Discord\/Fonts\/FiraCode-SemiBold.ttf"
     },
     "simple_colors": {
         "mention_highlight": 853849088,
