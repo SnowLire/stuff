@@ -1,0 +1,64 @@
+/**
+ * @name MinimalSnow
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @invite ZHthyCw
+ * @description Changes Discord enough to give it a fresh feel while also making it darker. Supports both Light and Dark themes.
+ * @source https://github.com/DiscordStyles/MinimalCord
+ * @website https://www.gibbu.me
+*/
+
+/* Base theme*/
+@import url("https://discordstyles.github.io/MinimalCord/dist/MinimalCord.css");
+
+/* Horizontal Server List */
+@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
+
+/* Better Badges */
+@import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
+
+/* Refined User Connections */
+@import url('https://discord-theme-addons.github.io/refined-user-connections/src/support/compiled.css');
+
+/* Coloured SVG */
+@import url('https://nyri4.github.io/Discolored/main.css');
+
+/* Radial Status */
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+
+/* Revert Rebrand */
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/hardcoded.css');
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/mentions.css');
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/reactions.css');
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/pfps.css');
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/folders.css');
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css');
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/general/bd.css');
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/general/inputs.css');
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/general/other.css');
+
+:root {
+    --accent: 109, 177, 203;
+    --message-padding: 10px;
+    --message-spacing: 10px;
+    --font: 'Noto Sans';
+
+    --HSL-server-icon-size: 35px;
+    --HSL-server-spacing: 8px;
+
+    --rs-small-spacing: 2px;
+    --rs-medium-spacing: 3px;
+    --rs-large-spacing: 4px;
+    --rs-small-width: 2px;
+    --rs-medium-width: 3px;
+    --rs-large-width: 4px;
+    --rs-avatar-shape: 50%;
+    --rs-online-color: #43b581;
+    --rs-idle-color: #faa61a;
+    --rs-dnd-color: #f04747;
+    --rs-offline-color: #636b75;
+    --rs-streaming-color: #643da7;
+    --rs-invisible-color: #747f8d;
+    --rs-phone-color: var(--rs-online-color);
+    --rs-phone-visible: block;
+}
