@@ -6,8 +6,8 @@
     },
     "background": {},
     "fonts": {
-        "*": "https:\/\/raw.githubusercontent.com\/SnowLire\/stuff\/main\/Discord\/Fonts\/LexendDeca-VariableFont_wght.ttf",
-        "sourcecodeori_semibold": "https:\/\/raw.githubusercontent.com\/SnowLire\/stuff\/main\/Discord\/Fonts\/FiraCode-SemiBold.ttf"
+        "*": "https:\/\/raw.githubusercontent.com\/SnowLire\/stuff\/main\/Discord\/Fonts\/Inter-VariableFont.ttf",
+        "sourcecodeori_semibold": "https:\/\/raw.githubusercontent.com\/SnowLire\/stuff\/main\/Discord\/Fonts\/FiraCode-SemiBold-NerdFont.ttf"
     },
     "simple_colors": {
         "mention_highlight": 853849088,
