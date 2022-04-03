@@ -8,8 +8,9 @@
  * @website https://www.gibbu.me
 */
 
-/* Base theme*/
+/* Base theme & font*/
 @import url("https://discordstyles.github.io/MinimalCord/dist/MinimalCord.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 
 /* Horizontal Server List */
 @import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
